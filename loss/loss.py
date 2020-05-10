@@ -9,3 +9,8 @@
 
 loss函数 基类
 '''
+
+import abc
+
+class Loss(metaclass=abc.ABCMeta):
+    pass
